@@ -1,0 +1,54 @@
+section{
+    margin: 50px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.title {
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+   
+  table {
+    box-shadow: none;
+  }
+  
+  .pagination-icon {
+    font-size: 20px;
+    color: #236599;
+    margin: 0px 5px;
+    cursor: pointer;
+  
+    .first-last {
+      margin-top: 1px;
+    }
+  }
+  
+  .pagination-icon:hover {
+    color: #236599;
+  }
+  
+  .pagination-info {
+    color: #236599;
+    font-size: 18px;
+    margin: 0 10px;
+    margin-bottom: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 350;
+  }
+  
+  .pagination-info strong {
+    font-weight: 700;
+    margin: 0px 3px;
+  }
+  
+  .pagination-icon.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  .pagination{
+    margin-top: 5px;
+    text-align: center;
+  }
